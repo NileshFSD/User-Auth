@@ -23,7 +23,7 @@ const Signup = () => {
           "your password is not matched, please re-Entre the same password"
         );
       } else {
-        await (auth, email, password);
+        await createUserWithEmailAndPassword(auth, email, password);
         await addDoc(collection(db, "users"), {
           name: name,
           email: email,
