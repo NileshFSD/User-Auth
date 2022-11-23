@@ -141,11 +141,6 @@ function User() {
                         {userDetails?.data.address}
                       </div>
                     </div>
-                    <div className="edit-container">
-                      <button className="edit" onClick={open}>
-                        Edit
-                      </button>
-                    </div>
                   </div>
                 </div>
               )}
